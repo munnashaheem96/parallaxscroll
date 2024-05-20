@@ -87,3 +87,22 @@ header{
     color: #fff;
     font-weight: 300;
 }
+
+.sec1{
+    position: relative;
+    background: #ffffff;
+    padding: 10%;
+    height: fit-content;
+}
+
+.sec1 h2{
+    font-size: 3em;
+    color: #003329;
+    margin-bottom: 10px;
+}
+
+.sec1 p{
+    font-size: 1em;
+    color: #003329;
+    font-weight: 300;
+}
