@@ -106,3 +106,88 @@ header{
     color: #003329;
     font-weight: 300;
 }
+
+/* Add this to your existing CSS */
+
+.download-btn {
+    display: inline-block;
+    background-color: #359381;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn:hover {
+    background-color: #2c7a5b;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 1.5em;
+        margin-right: 100px;
+    }
+
+    header {
+        padding: 20px 50px;
+    }
+
+    .navigation a {
+        font-size: 0.9em;
+    }
+
+    .parallax img {
+        width: 100%;
+    }
+
+    .sec, .sec1 {
+        padding: 50px;
+    }
+
+    .sec h2, .sec1 h2 {
+        font-size: 2.5em;
+    }
+
+    .sec p, .sec1 p {
+        font-size: 0.9em;
+    }
+
+    .download-btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        margin-right: 50px;
+    }
+
+    .navigation a {
+        font-size: 0.8em;
+    }
+
+    .sec h2, .sec1 h2 {
+        font-size: 2em;
+    }
+
+    .sec p, .sec1 p {
+        font-size: 0.8em;
+    }
+
+    .download-btn {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
